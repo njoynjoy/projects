@@ -1,3 +1,11 @@
+#Create a fargate profile
+```
+eksctl create fargateprofile \
+    --cluster <your-cluster-name> \
+    --region us-east-1 \
+    --name alb-sample-app \
+    --namespace game-2048
+```
 #Link for 2048 game 
 Deploy in cluster u have created
 
