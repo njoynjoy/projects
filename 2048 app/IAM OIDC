@@ -1,0 +1,4 @@
+#To Assocaite IAM & EKS thriugh OIDC
+```
+eksctl utils associate-iam-oidc-provider --cluster <your cluster name> --approve
+```
